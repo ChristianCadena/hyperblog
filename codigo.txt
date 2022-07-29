@@ -1,0 +1,487 @@
+
+biome4@Biome4 MINGW64 ~
+$ pwd
+/c/Users/estusaee1
+
+biome4@Biome4 MINGW64 ~
+$ cd /d/
+
+biome4@Biome4 MINGW64 /d
+$ ls
+'$RECYCLE.BIN'/                                                          'Moduladores Actualiz
+'Ampliar Data.R'                                                         'Nueva carpeta'/
+ Analisis_pluviometros/                                                   PERCENTILES_rdto.csv
+'Anomalias_estaciones(SAS ODAS)'/                                         PLS_MODULADORES/
+ Anomas_2021_/                                                            Plantilla/
+'Análisis de empresas que brindan soluciones al sector agro.docx'         Plantilla.zip
+'Análisis de empresas que brindan soluciones al sector agro.pdf'          Plantilla2/
+ Archivos_R_C.zip                                                         Plantilla2.zip
+ Archivos_Ruta_color/                                                     Plantilla_2.0.zip
+'BASES DE DATOS_HECTOR_(12-MAR-21)'/                                      Plantilla_2.zip
+'CALENDARIO LLUVIA'/                                                      PracticaPython/
+ CALIFICACIONES.pdf                                                       Practica_SAS/
+'Calendarios CN.pptx'                                                    'Proyecto git'/
+'Christian Cadena'/                                                      'Prueba info semestra
+ Copula_fabrica/                                                          R/
+'Curso SAS'/                                                              R.xlsx
+ DATA_UNIF/                                                              'Rendimiento comercia
+ Dialnet-EstimacionDeRendimientoEnElCultivoDeCanaDeAzucarSa-7740339.pdf  'Ruta color 2021 Ener
+'Ecuaciones NLME.docx'                                                    Ruta_Color2.0/
+'Ejemplo Depresion por endocria 2.pptx'                                   Ruta_color/
+'Ensayo SAS.docx'                                                        'Serie Informativa'/
+ Ensayo_SAS.pdf                                                          'Serie Informativa Do
+ Funciones_Copula/                                                       'System Volume Inform
+ Geoestadistica.pdf                                                       TCH_RDTO.zip
+ Geosestadística/                                                         TOP_MY.xlsx
+'Graficos_anomalias(SAS ODAS)'/                                          'Trabajos realizados
+'IEP_SUMMA-MBA_Enfasis_en_Business Intelligence_y_Big_Data.pdf'          'Trabajos realizados
+'INFORME 3 (PLS Vs NN)_ensayo'/                                          'Técnicas básicas de
+ I_5.png                                                                  box_cox/
+ Imagenes/                                                                coordenadas_geografi
+ Imagenes_Actualizadas.zip                                                copula.zip
+ Imagenes_Dinamicas/                                                     'disc espanol Analiti
+'Informe Anual 2021.pdf'                                                  ia_2019.pdf
+ Informe.zip                                                              img.zip
+ JeanFrancoisMas.pdf                                                      imgg1.png
+ Latex/                                                                   multinomial_cuantita
+ Libro3.xlsx                                                              result_diatraeas.htm
+'Materia Extraña'/                                                       'script portadas.txt'
+'Modelos (TCH y Rendimiento)'/
+
+biome4@Biome4 MINGW64 /d
+$ cd /protecto git/
+bash: cd: too many arguments
+
+biome4@Biome4 MINGW64 /d
+$ cd /d/protecto git/
+bash: cd: too many arguments
+
+biome4@Biome4 MINGW64 /d
+$ cd /d/'protecto git'/
+bash: cd: /d/protecto git/: No such file or directory
+
+biome4@Biome4 MINGW64 /d
+$ cd /d/'proyecto git'/
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ ls
+historia.txt  vacio.txt
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git config --global user.name"Camilo Cadena Lemos"
+error: invalid key: user.nameCamilo Cadena Lemos
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git config --global user.name "Camilo Cadena Lemos"
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Camilo Cadena Lemos
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git config --global user.email "cadenalemos@gmail.com"
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Camilo Cadena Lemos
+user.email=cadenalemos@gmail.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git commit -m "Primer commit de este archivo"
+On branch master
+nothing to commit, working tree clean
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git commit -m "Primer commit de este archivo"
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    vacio.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git commit -m "Primer commit de este archivo"
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    vacio.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ car historia.txt
+bash: car: command not found
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ cat historia.txt
+Christian Camilo Cadena
+edad 27 años
+nacio en la ciudad de Saniago de Cali
+el 1 octubre de 1994
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ code historia.txt
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git add .
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   historia.txt
+        deleted:    vacio.txt
+
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git commit -m "Cambio uno"
+[master d724627] Cambio uno
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ delete mode 100644 vacio.txt
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git log historia.txt
+commit d724627bc687a257f8d2b1d99ddfcf936bac2a76 (HEAD -> master)
+Author: Camilo Cadena Lemos <cadenalemos@gmail.com>
+Date:   Fri Jul 29 09:00:01 2022 -0500
+
+    Cambio uno
+
+commit bc8f4d3c5774f8364c17171f201c849c12fe5b79
+Author: Christian Camilo Cadena Lemos <biome4@cenicana.local>
+Date:   Fri Jul 29 08:04:23 2022 -0500
+
+    Este es el primer commit de este archivo
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git show historia.txt
+commit d724627bc687a257f8d2b1d99ddfcf936bac2a76 (HEAD -> master)
+Author: Camilo Cadena Lemos <cadenalemos@gmail.com>
+Date:   Fri Jul 29 09:00:01 2022 -0500
+
+    Cambio uno
+
+diff --git a/historia.txt b/historia.txt
+index d8fb974..9a4ccb6 100644
+--- a/historia.txt
++++ b/historia.txt
+@@ -1,4 +1,4 @@
+ Christian Camilo Cadena
+ edad 27 años
+-nacio en la ciudad de Saniago de Cali
++nacio en la ciudad de Saniago de Cali Colombia para el mundo
+ el 1 octubre de 1994
+\ No newline at end of file
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git add .
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git commit
+[master 4e02df2] Agragamos nueva linea
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git log historia.txt
+commit 4e02df23999dfb8b5af4584daac7567a6e5570d8 (HEAD -> master)
+Author: Camilo Cadena Lemos <cadenalemos@gmail.com>
+Date:   Fri Jul 29 09:05:16 2022 -0500
+
+    Agragamos nueva linea
+
+commit d724627bc687a257f8d2b1d99ddfcf936bac2a76
+Author: Camilo Cadena Lemos <cadenalemos@gmail.com>
+Date:   Fri Jul 29 09:00:01 2022 -0500
+
+    Cambio uno
+
+commit bc8f4d3c5774f8364c17171f201c849c12fe5b79
+Author: Christian Camilo Cadena Lemos <biome4@cenicana.local>
+Date:   Fri Jul 29 08:04:23 2022 -0500
+
+    Este es el primer commit de este archivo
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git diff bc8f4d3c5774f8364c17171f201c849c12fe5b79 4e02df23999dfb8b5af4584daac7567a6e5570d8
+diff --git a/historia.txt b/historia.txt
+index d8fb974..17fbe64 100644
+--- a/historia.txt
++++ b/historia.txt
+@@ -1,4 +1,6 @@
+ Christian Camilo Cadena
+ edad 27 años
+-nacio en la ciudad de Saniago de Cali
+-el 1 octubre de 1994
+\ No newline at end of file
++nacio en la ciudad de Saniago de Cali Colombia para el mundo
++el 1 octubre de 1994
++
++Viviendo en todo el mundo
+diff --git a/vacio.txt b/vacio.txt
+deleted file mode 100644
+index e69de29..0000000
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git log
+commit 4e02df23999dfb8b5af4584daac7567a6e5570d8 (HEAD -> master)
+Author: Camilo Cadena Lemos <cadenalemos@gmail.com>
+Date:   Fri Jul 29 09:05:16 2022 -0500
+
+    Agragamos nueva linea
+
+commit d724627bc687a257f8d2b1d99ddfcf936bac2a76
+Author: Camilo Cadena Lemos <cadenalemos@gmail.com>
+Date:   Fri Jul 29 09:00:01 2022 -0500
+
+    Cambio uno
+
+commit bc8f4d3c5774f8364c17171f201c849c12fe5b79
+Author: Christian Camilo Cadena Lemos <biome4@cenicana.local>
+Date:   Fri Jul 29 08:04:23 2022 -0500
+
+    Este es el primer commit de este archivo
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git reset hard
+fatal: ambiguous argument 'hard': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git log
+commit 4e02df23999dfb8b5af4584daac7567a6e5570d8 (HEAD -> master)
+Author: Camilo Cadena Lemos <cadenalemos@gmail.com>
+Date:   Fri Jul 29 09:05:16 2022 -0500
+
+    Agragamos nueva linea
+
+commit d724627bc687a257f8d2b1d99ddfcf936bac2a76
+Author: Camilo Cadena Lemos <cadenalemos@gmail.com>
+Date:   Fri Jul 29 09:00:01 2022 -0500
+
+    Cambio uno
+
+commit bc8f4d3c5774f8364c17171f201c849c12fe5b79
+Author: Christian Camilo Cadena Lemos <biome4@cenicana.local>
+Date:   Fri Jul 29 08:04:23 2022 -0500
+
+    Este es el primer commit de este archivo
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ ^C
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git reset bc8f4d3c5774f8364c17171f201c849c12fe5b79
+Unstaged changes after reset:
+M       historia.txt
+D       vacio.txt
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git reset bc8f4d3c5774f8364c17171f201c849c12fe5b79
+Unstaged changes after reset:
+M       historia.txt
+D       vacio.txt
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   historia.txt
+        deleted:    vacio.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ ls
+historia.txt
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git log
+commit bc8f4d3c5774f8364c17171f201c849c12fe5b79 (HEAD -> master)
+Author: Christian Camilo Cadena Lemos <biome4@cenicana.local>
+Date:   Fri Jul 29 08:04:23 2022 -0500
+
+    Este es el primer commit de este archivo
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ code historia.txt
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ code historia.txt
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git add .
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   historia.txt
+        deleted:    vacio.txt
+
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git comit -m "Cambio de vida"
+git: 'comit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git commit -m "Cambio de vida"
+[master 89ee393] Cambio de vida
+ 2 files changed, 5 insertions(+), 2 deletions(-)
+ delete mode 100644 vacio.txt
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git commit -m "cambio del mundo"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   historia.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git add .
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git commit -m "cambio del mundo"
+[master bc10588] cambio del mundo
+ 1 file changed, 1 insertion(+)
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git log
+commit bc10588b0b252bae7a25242b0ea91f604cde4a94 (HEAD -> master)
+Author: Camilo Cadena Lemos <cadenalemos@gmail.com>
+Date:   Fri Jul 29 09:41:41 2022 -0500
+
+    cambio del mundo
+
+commit 89ee3931c35f8026814dead12075ed7c5efc2e72
+Author: Camilo Cadena Lemos <cadenalemos@gmail.com>
+Date:   Fri Jul 29 09:40:40 2022 -0500
+
+    Cambio de vida
+
+commit bc8f4d3c5774f8364c17171f201c849c12fe5b79
+Author: Christian Camilo Cadena Lemos <biome4@cenicana.local>
+Date:   Fri Jul 29 08:04:23 2022 -0500
+
+    Este es el primer commit de este archivo
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git log --stat
+commit bc10588b0b252bae7a25242b0ea91f604cde4a94 (HEAD -> master)
+Author: Camilo Cadena Lemos <cadenalemos@gmail.com>
+Date:   Fri Jul 29 09:41:41 2022 -0500
+
+    cambio del mundo
+
+ historia.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 89ee3931c35f8026814dead12075ed7c5efc2e72
+Author: Camilo Cadena Lemos <cadenalemos@gmail.com>
+Date:   Fri Jul 29 09:40:40 2022 -0500
+
+    Cambio de vida
+
+ historia.txt | 7 +++++--
+ vacio.txt    | 0
+ 2 files changed, 5 insertions(+), 2 deletions(-)
+
+commit bc8f4d3c5774f8364c17171f201c849c12fe5b79
+Author: Christian Camilo Cadena Lemos <biome4@cenicana.local>
+Date:   Fri Jul 29 08:04:23 2022 -0500
+
+    Este es el primer commit de este archivo
+
+ historia.txt | 4 ++++
+ vacio.txt    | 0
+ 2 files changed, 4 insertions(+)
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git checkout bc8f4d3c5774f8364c17171f201c849c12fe5b79 historia.txt
+Updated 1 path from 6f18023
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$ git checkout master historia.txt
+Updated 1 path from ba9a3c0
+
+biome4@Biome4 MINGW64 /d/proyecto git (master)
+$
